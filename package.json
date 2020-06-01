@@ -27,7 +27,6 @@
         "dist/",
         "dist/js/node_modules/fashion/dist/",
         "bin/sencha",
-        "platform-install.js",
         "index.js",
         "dist",
         "dist/js/node_modules/fashion/dist"
@@ -36,9 +35,6 @@
     "version": "7.2.0-84",
     "bin": {
         "sencha": "bin/sencha"
-    },
-    "scripts": {
-        "install": "node platform-install.js"
     },
     "dependencies": {
         "which": "^1.2.12"
