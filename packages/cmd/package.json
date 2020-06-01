@@ -1,0 +1,43 @@
+{
+    "description": "Productivity and performance optimization tool for building applications with Sencha Ext JS and Sencha Touch.",
+    "keywords": [
+        "sencha",
+        "senchacmd",
+        "sencha-cmd",
+        "sencha command",
+        "extjs",
+        "ext js",
+        "ext-js",
+        "sencha touch",
+        "senchatouch",
+        "ext",
+        "touch",
+        "cmd",
+        "command",
+        "cli"
+    ],
+    "homepage": "https://www.sencha.com/products/sencha-cmd/",
+    "bugs": "https://www.sencha.com/forum/forumdisplay.php?8-Sencha-Cmd",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "author": "Sencha, Inc.",
+    "files": [
+        ".npmignore",
+        "LICENSE.md",
+        "README.md",
+        "dist/",
+        "dist/js/node_modules/fashion/dist/",
+        "bin/sencha",
+        "index.js",
+        "dist",
+        "dist/js/node_modules/fashion/dist"
+    ],
+    "name": "@sencha/cmd",
+    "version": "7.2.0-84",
+    "bin": {
+        "sencha": "bin/sencha"
+    },
+    "dependencies": {
+        "which": "^1.2.12"
+    },
+    "version_full": "7.2.0.84"
+}
