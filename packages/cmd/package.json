@@ -29,7 +29,8 @@
         "bin/sencha",
         "index.js",
         "dist",
-        "dist/js/node_modules/fashion/dist"
+        "dist/js/node_modules/fashion/dist",
+        "scripts/assure.js"
     ],
     "name": "@sencha/cmd",
     "version": "7.2.0-84",
@@ -39,5 +40,8 @@
     "dependencies": {
         "which": "^1.2.12"
     },
-    "version_full": "7.2.0.84"
+    "version_full": "7.2.0.84",
+    "scripts": {
+        "preinstall": "node scripts/assure.js"
+    }
 }
